@@ -138,7 +138,7 @@ print()
         # 4.isdecimal
 num="7"
 print(num.isdecimal())
-
+ 
 
 
 
