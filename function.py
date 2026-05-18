@@ -80,13 +80,116 @@
 # greet()
 
 
-def to_upper(richu_functions):
+# def to_upper(richu_functions):
     
 
 
 
-def strings(s):
-    print(s)
-strings("my name is richu")    
+# def strings(s):
+#     print(s)
+# strings("my name is richu")    
+
+
+
+
+
+# def greet(a):
+#     print(a)
+# greet("hello welcome")
+
+
+# def greet(name):
+#     print("welcome",name)
+# greet("rono")
+
+# def greet(a,b):
+#     return a+b
+# print(greet(10,20))
+
+
+# def greet(name,age):
+#     print(f"my name is {name} and my age is {age}")
+#     # print("age",age)
+# greet("richu",22)
+# greet("shahal",24)
+
+
+# def person(name,age,adress):
+#     print(f"my name is {name} and my age is {age} i am from {adress}")
+# person(age=21,adress="calicut",name="richu")
+
+
+
+# def greet(a):
+#     if a==2:
+#         return "this is tow"
+#     else:
+#         return "tgis is not tow"
+# print(greet(4))
+
+
+# recrusive function
+
+# a=int(input("ender your value : "))
+# def greet(a):
+#     if a>0:
+#         return f"your value {a} is bigger thasn zero"
+#     elif a==0:
+#         return "your value is zero"
+#     else:
+#         return f"your value {a} is lessthan zero"
+# print(greet(a))
+
+
+
+
+# def greet(a,b):
+#     return a+b
+# print(greet(3,5))
+
+# lam=lambda a,b:a+b
+# print(lam(1,2))
+
+# x=int(input("ender your value : "))
+# a=lambda x:f"is positive{x}" if x>0 else f"is negative{x}"
+# print(a(x))
+
+# a=[2,3,4]
+
+# b=list(map(lambda x:x**2,a))
+# print(b)
+
+
+# k=["mess,'ronoi"]
+
+# b=list(map(str.upper,k))
+# print(b)
+
+
+# a=["hi"]
+# b=list(map(str.upper,a))
+# print(b)
+
+
+# a=[1,4,55,44,66,77,11]
+# b=list(filter(lambda x:x>10,a))
+# print(b)
+
+# a=[1,2,3,4,5]
+# B=reduce
+
+from functools import reduce
+
+a=[1,2,3,4,5,6]
+print(reduce(lambda a,b:a+b,))
+
+
+
+
+
+
+    
+
+
 
            
